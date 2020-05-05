@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(10, 10, 7);
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.square{
+    width: 30%;
+    background-color: pink;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15px 50px ;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+}
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(165,42,42);
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 15px 0;
+    
+}
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+.selected{
+    color: white;
+    background-color: rgb(165,42,42);
+}
+#targetColor{
+    color: rgb(197, 220, 221);
+}
+hr{
+    width: 50%;
+    border: 0;
+    height: 0.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(148, 144, 144, 0.75), rgba(0, 0, 0, 0));
+}
+#colorDisplay{
+    font-size: 0.7em;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: rgb(165,42,42);
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+button:hover{
+    color: white;
+    background-color: rgb(165,42,42);
+}
+button:focus{
+    outline: none;
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
